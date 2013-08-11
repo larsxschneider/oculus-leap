@@ -4,7 +4,6 @@ This little experiment uses the Oculus Room Demo and integrates it with a Leap M
 My impression is that the sense of depth is much better.
 
 ## Setup
-Copy the "LibOVR" directory from the OculusSDK into the 3rdParty directory.
-Copy the entire "LeapSDK" directory into the 3rdParty directory.
-
-TODO
+1. Copy the "LibOVR" directory from the OculusSDK into the 3rdParty directory.
+2. Copy the entire "LeapSDK" directory into the 3rdParty directory.
+3. [Adjust your IPD and leap pointer length] (https://github.com/larsxschneider/oculus-leap/blob/d32b23274d4a75207a2e7968ecdc6afcf7ee9fe7/Source/OSX_OculusRoomTiny.mm#L63-64)
